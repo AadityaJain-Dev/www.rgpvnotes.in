@@ -162,6 +162,11 @@
 
 
                                             <tr> 
+                                              <td>Anumeha Jain</td>
+                                              <td>50 Rs</td>
+                                              <td>September 2020</td>                                            
+                                            </tr>
+                                            <tr> 
                                               <td>Pritam Kumar</td>
                                               <td>11 Rs</td>
                                               <td>September 2020</td>                                            
@@ -783,7 +788,7 @@
             }
           }
 
-          //sum();
+          sum();
           highlight()
         }
      
@@ -798,7 +803,7 @@
         }
 
 
-        /*
+        
         // function to sum all the received amount
         function sum(){
         let  j=1,sumVal=0,req, need;
@@ -808,7 +813,8 @@
           {
               sumVal = sumVal + parseInt(table.rows[j].cells[1].innerHTML,10);
           }
-
+          console.log(sumVal);
+          /*
           document.getElementById("total").innerHTML = sumVal + ' Rs';
           req = parseInt(document.getElementById("required").innerHTML,10);
           need = req - sumVal;
@@ -818,8 +824,9 @@
           else{
             document.getElementById("need").innerHTML = '0 Rs';
           }
+          */
         }
-        */
+        
 
 
         sortAmount();
